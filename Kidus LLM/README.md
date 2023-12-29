@@ -1,19 +1,23 @@
+# CompactGPT-KR: Edge-Optimized Large Language Model
+
+Explore the cutting-edge in NLP with CompactGPT-KR, a breakthrough in efficient Korean language processing. This model brings the robust capabilities of large models like GPT-3 and GPT-4 to edge devices with an optimized, compact design.
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Kidus-berhanu/CompactGPT-KR-Edge-Optimized-Large-Language-Model.git
+cd CompactGPT-KR-Edge-Optimized-Large-Language-Model
 pip install -r requirements.txt
 
 
-
+##  Usage
 python generate.py \
     --model_path /YOUR MODEL CHECKPOINT PATH \
     --model_size small \
     --chat 
 
 
-	
-
-
-
-Fine-Tuning
-
-Fine-Tune on Colab
-Uses datasets from Kaggle and UC Irvine Machine Learning Repository.
-The fine-tuning process takes about 5 hours on A200 GPUs.
+##Fine-Tuning
+Leverage Kaggle and UC Irvine Machine Learning Repository datasets for fine-tuning. The process is optimized for A200 GPUs, taking approximately 5 hours.

@@ -20,4 +20,4 @@ python generate.py \
 
 
 ##Fine-Tuning
-Leverage Kaggle and UC Irvine Machine Learning Repository datasets for fine-tuning. The process is optimized for A200 GPUs, taking approximately 5 hours.
+Leverage Kaggle and UC Irvine Machine Learning Repository datasets for fine-tuning. The process is optimized for A100 GPUs, taking approximately 1 hour.

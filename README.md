@@ -21,7 +21,7 @@ git clone https://github.com/Kidus-berhanu/CompactGPT-AMR-Edge-Optimized-Large-L
 cd CompactGPT-AMR-Edge-Optimized-Large-Language-Model
 pip install -r requirements.txt
 
-
+```markdown
 ## Usage
 ## Training
 - **To train the model, use the FullTrainer class in trainer.py**:
@@ -46,7 +46,7 @@ trainer = FullTrainer(
     with_lr_scheduler=True,
     with_swa=True
 )
-
+```markdown
 
 ### Generation
 ## To generate text using the trained model, use the generate.py script:
@@ -55,14 +55,14 @@ python generate.py \
     --model_path "path/to/model" \
     --model_size "small" \
     --chat
-
+```markdown
 ** This will start an interactive chat session where you can input text and the model will generate responses.**
 
 # Train the model
 trainer.train()
 
 
-
+```markdown
 
 ## Code Structure
 

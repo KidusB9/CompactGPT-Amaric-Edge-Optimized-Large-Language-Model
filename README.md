@@ -46,7 +46,7 @@ trainer = FullTrainer(
     with_lr_scheduler=True,
     with_swa=True
 )
-```markdown
+```
 
 ### Generation
 ## To generate text using the trained model, use the generate.py script:
@@ -55,14 +55,14 @@ python generate.py \
     --model_path "path/to/model" \
     --model_size "small" \
     --chat
-```markdown
+```
 ** This will start an interactive chat session where you can input text and the model will generate responses.**
 
 # Train the model
+```bash
 trainer.train()
 
-
-```markdown
+```
 
 ## Code Structure
 

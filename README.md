@@ -21,7 +21,7 @@ git clone https://github.com/Kidus-berhanu/CompactGPT-AMR-Edge-Optimized-Large-L
 cd CompactGPT-AMR-Edge-Optimized-Large-Language-Model
 pip install -r requirements.txt
 
-```markdown
+```
 ## Usage
 ## Training
 - **To train the model, use the FullTrainer class in trainer.py**:

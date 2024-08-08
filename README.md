@@ -47,6 +47,7 @@ trainer = FullTrainer(
     with_swa=True
 )
 
+
 ### Generation
 ## To generate text using the trained model, use the generate.py script:
 ```bash
@@ -59,6 +60,8 @@ python generate.py \
 
 # Train the model
 trainer.train()
+
+
 
 
 ## Code Structure
@@ -76,6 +79,8 @@ trainer.train()
 - **requirements.txt**: Dependency requirements file
 - **sophia.py**: Sophia model implementation
 - **utils.py**: Utility functions
+
+
 
 
 ## Contributing

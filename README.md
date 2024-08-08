@@ -8,7 +8,7 @@ Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/Kidus-berhanu/CompactGPT-AMR-Edge-Optimized-Large-Language-Model.git
-cd CompactGPT-KR-Edge-Optimized-Large-Language-Model
+cd CompactGPT-AMR-Edge-Optimized-Large-Language-Model
 pip install -r requirements.txt
 
 

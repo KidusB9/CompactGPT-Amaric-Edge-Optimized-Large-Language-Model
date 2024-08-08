@@ -1,13 +1,13 @@
-# CompactGPT-KR: Edge-Optimized Large Language Model
+# CompactGPT-AMR: Edge-Optimized Large Language Model
 
-Explore the cutting-edge in NLP with CompactGPT-KR, a breakthrough in efficient Korean language processing. This model brings the robust capabilities of large models like GPT-3 and GPT-4 to edge devices with an optimized, compact design.
+Explore the cutting-edge in NLP with CompactGPT-Amharic, a breakthrough in efficient Amharic language processing. This model brings the robust capabilities of large models like GPT-3 and GPT-4 to edge devices with an optimized, compact design.
 
 ## Installation
 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/Kidus-berhanu/CompactGPT-KR-Edge-Optimized-Large-Language-Model.git
+git clone https://github.com/Kidus-berhanu/CompactGPT-AMR-Edge-Optimized-Large-Language-Model.git
 cd CompactGPT-KR-Edge-Optimized-Large-Language-Model
 pip install -r requirements.txt
 

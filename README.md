@@ -63,6 +63,49 @@ python generate.py \
 trainer.train()
 
 ```
+### Fine-Tuning
+--------------
+To fine-tune the model, use the FineTuner class in finetune.py :
+```bash
+from finetune import FineTuner
+# Initialize the fine-tuner
+fine_tuner = FineTuner(
+    model_path="path/to/model",
+    model_size="small",
+    learning_rate=1e-5,
+    batch_size=60,
+    max_iters=6000,
+    warmup_iters=300,
+    cache_path="path/to/cache",
+    checkpoint_dir="path/to/checkpoint",
+    tokenizer_path="path/to/tokenizer",
+    save_interval=500,
+    eval_interval=50,
+    gradient_accumulate=6,
+    with_lr_scheduler=True,
+    with_swa=True
+)
+
+# Fine-tune the model
+fine_tuner.fine_tune()
+```
+
+## To evaluate the model, use the Evaluator class in evaluate.py :
+```bash
+from evaluate import Evaluator
+
+# Initialize the evaluator
+evaluator = Evaluator(
+    model_path="path/to/model",
+    model_size="small",
+    batch_size=60,
+    cache_path="path/to/cache",
+    tokenizer_path="path/to/tokenizer"
+)
+
+# Evaluate the model
+evaluator.evaluate()
+```
 
 ## Code Structure
 

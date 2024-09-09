@@ -152,8 +152,7 @@ if __name__ == "__main__":
     EOS_ID = tokenizer.encode(EOS_TOKEN)[0]
 
     chat_parser = (
-        "명령어에 따른 요청을 적절히 완료하는 응답을 작성하세요.\n\n"
-        "### 명령어:\n{instruction}\n\n### 응답:\n"
+        ""
     )
 
     contexts = ""
